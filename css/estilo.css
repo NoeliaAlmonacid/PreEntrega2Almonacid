@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*HEADER*/
+
+.logo {
+    width: 6rem;
+}
+
+.fuentes {
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    text-transform: uppercase;
+}
+
+.fuentes li a:hover {
+    background-color: #f56411;
+    color: #fff;
+}
+
+header {
+    border-bottom: 1px solid #aca9a8;
+}
+
+/* CATALOGO */
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.tituloProductos {
+
+    color: #e98323;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.tituloProductos h2 {
+    font-size: 2rem;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.mapa-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.mapa-container iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    border: 4px solid #eb8716;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-1 {
+    background-color: #eb8716;
+    color: #ddd9d4;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 5px 9px;
+    width: 100px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.btn-2 {
+    background-color: #999691ec;
+    color: #f7f4f2;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 5px 10px;
+    width: 120px;
+    text-align: center;
+    margin-left: 5px;
+}
